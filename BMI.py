@@ -5,7 +5,7 @@
 weight = float(input('Enter weight(kg): '))
 height = float(input('Enter height(cm): '))
 
-bmi = weight / height
+bmi = weight / height * height
 
 print('BMI: ', bmi)
 
@@ -15,4 +15,5 @@ age = float(input('Enter age(years): '))
 bmr =  10 * weight + 6.25 * height - 5 * age + 5
 
 print('BMR: ', bmr)
+#this is good 
 
