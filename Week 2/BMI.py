@@ -3,17 +3,22 @@
 
 # Calculate BMI
 weight = float(input('Enter weight(kg): '))
-height = float(input('Enter height(cm): '))
+height = float(input('Enter height(m): '))
 
-bmi = weight / height * height
+bmi = weight / height**2 
 
 print('BMI: ', bmi)
 
 # Calculate BMR
 age = float(input('Enter age(years): '))
+gender = str(input('Are you male or female? '))
 
-bmr =  10 * weight + 6.25 * height - 5 * age + 5
+if gender == "male":
+    bmr = 10*weight + 6.25 * height - 5 *age + 5
+else :
+    bmr = 10*weight + 6.25 * height -5 * age - 161
+
 
 print('BMR: ', bmr)
-#this is good 
+
 
