@@ -1,3 +1,5 @@
+#Ang Hao Yi 10273989D
+
 # BMI_BMR_Calculator.py
 # This program calculates the body mass index and basal metabolic rate
 

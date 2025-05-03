@@ -1,3 +1,5 @@
+#Ang Hao Yi 10273989D
+
 import math
 
 priceofchickenrice = float(input('Kindly enter price of chicken rice '))

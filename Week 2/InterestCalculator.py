@@ -1,3 +1,5 @@
+#Ang Hao Yi 10273989D
+
 #InterestCalculator.py
 #this program calculates the interest based on given principal,
 #rate and duration. 

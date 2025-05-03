@@ -1,3 +1,5 @@
+#Ang Hao Yi 10273989D
+
 
 time =int(input('Enter time in seconds '))
 hour = time // 3600
