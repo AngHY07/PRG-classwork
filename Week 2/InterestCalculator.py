@@ -1,5 +1,3 @@
-#Ang Hao Yi 10273989D
-
 #InterestCalculator.py
 #this program calculates the interest based on given principal,
 #rate and duration. 
@@ -10,7 +8,7 @@ rate = 10
 durations = 2		# in years
 		
 #compute the interest
-interest = principal * rate * durations
+interest = principal * rate/100* durations
 		
 #display the output
 print('Principal ($)  : {:.2f}'.format(principal))
