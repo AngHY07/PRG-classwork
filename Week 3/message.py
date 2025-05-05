@@ -1,4 +1,4 @@
-
+#Ang Hao Yi (10273989D)
 Path = 'C:\\Text Folders\\'
 messageinformation = open (Path+'message.txt','r')
 messagecontent = messageinformation.read()

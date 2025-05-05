@@ -1,4 +1,4 @@
-
+#Ang Hao Yi 10273989D
 path = "C:\\Text Folders\\"
 studentdata = open(path+"StudentData.txt",'r')
 studentinfo = studentdata.readlines()

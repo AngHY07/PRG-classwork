@@ -1,4 +1,4 @@
-
+#Ang Hao Yi (10273989D)
 originalstring = str(input("Enter the original string "))
 substring = str(input("Enter the substring to delete "))
 
