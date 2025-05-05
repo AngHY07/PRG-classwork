@@ -1,9 +1,9 @@
 
-originalstring = str(input("enter the original string "))
-substring = str(input("enter the substring to delete "))
+originalstring = str(input("Enter the original string "))
+substring = str(input("Enter the substring to delete "))
 
 modifiedversion = originalstring.replace(substring,"")
-print(modifiedversion)
+print("The modified string is:",modifiedversion)
 
 
 
