@@ -14,4 +14,4 @@ print('{:<10s}     {:<14s}'.format("Name","Mobile Contact"))
 print('{:<10s}     {:<14s}'.format(split1[0],split1[1]))
 print('{:<10s}     {:<14s}'.format(split2[0],split2[1]))
 
-
+studentdata.close()
