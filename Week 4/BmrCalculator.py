@@ -16,8 +16,8 @@ else:
     bmr = 10*weight+6.25*(height*100)-5* age-161
 
 print(f'''
-Weight: {weight}
-Height: {height}
+Weight: {weight}kg
+Height: {height:.1f}m
 Age: {age}
 Gender: {gender}
 BMR: {bmr:.1f} kcal/day
