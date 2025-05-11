@@ -9,7 +9,7 @@ friendzone = str(input("Who do you want to be friendzoned? "))
 position = friendlist.index(friendzone)
 friendlist.remove(friendzone)
 
-print('{} was in position {}. He will be friendzoned'.format(friendzone,position))
+print('{} was in position {}. He will be friendzoned.'.format(friendzone,position))
 print("My eligible friends are now: ",friendlist)
 
 
