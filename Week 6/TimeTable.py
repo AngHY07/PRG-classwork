@@ -8,4 +8,4 @@ while count <= 10:
     print(f"{number:>5} x {count:<3} = {number*count}")
     count = count + 1
 
-print("The End")
+print("The End") 

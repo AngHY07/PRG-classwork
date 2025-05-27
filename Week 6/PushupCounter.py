@@ -9,4 +9,4 @@ while total < target:
     counter = counter + 1
 
 print(f"You did a total of {total} pushups!")
-print(f"You hit your terget in {counter-1} days!")
+print(f"You hit your target in {counter-1} days!")
