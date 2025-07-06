@@ -1,27 +1,6 @@
-def function1(i):
+a = 9
+b = 8 
 
-    if (i % 3 != 0):
+answer = round(a/b,2)
 
-        print(i, ' ')
-
-    i -= 1
-
-    while( i >= 1):
-
-        if (i % 3 != 0):
-
-            print(i, ' ')
-
-        i -= 1
-
- 
-
-i = 0
-
-while(i <= 4):
-
-    function1(i)
-
-    i += 1
-
-print('i is', i)
+print(answer)
