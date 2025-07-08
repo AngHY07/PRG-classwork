@@ -1,6 +1,9 @@
 account_list = []
-def read_accounts(accounts): 
-
+def read_accounts(account_list): 
+    path = "C:\\Text Folders\\"
+    with open(path+'accounts.txt',"r") as file: 
+        
+        info = file.readlines()
         for x in range(len(info)): 
 
             info_filtered = info[x].strip().split(',')
@@ -25,27 +28,23 @@ def login(user_name,password):
 
 
 print("Please login to your account before proceeding....")  
-path = "C:\\Text Folders\\"
 
-with open(path+ "accounts.txt","r") as file: 
+read_accounts(account_list)
 
-    info = file.readlines()
-    read_accounts(info)
+attempt_counter = 1 
+exit = False
 
-    attempt_counter = 1 
-    exit = False
-
-    while not(exit): 
+while not(exit): 
          
-        if attempt_counter >3: 
-              exit = True 
-              print("You didnt get it in 3 attempts. Your account is locked.")
-              continue     
+    if attempt_counter >3: 
+            exit = True 
+            print("You didnt get it in 3 attempts. Your account is locked.")
+            continue     
         
-        name =input("Please enter your username: ")
-        pwd = input("Please enter your password: ")
-        exit = login(name,pwd)
-        attempt_counter += 1
+    name =input("Please enter your username: ")
+    pwd = input("Please enter your password: ")
+    exit = login(name,pwd)
+    attempt_counter += 1
         
         
 
