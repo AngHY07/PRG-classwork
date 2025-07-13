@@ -45,9 +45,7 @@ def summary():
         total += cost
     print("Total cost = ${:.2f}".format(total))
 
-
 exit = False 
-
 while not(exit):
     user_interface()
     user_input = int(input('Your choice? '))
