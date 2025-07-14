@@ -15,7 +15,6 @@ def user_interface():
 3. Quit
 -------------------''')
 
-
 def menu(): 
     print("{:<8}   {}".format("Item","Price"))
     print("{:<8}   {}".format("----","-----"))
